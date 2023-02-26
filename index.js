@@ -53,7 +53,7 @@ const questions = [{
         name: 'email',
     },
 ];
-
+// Generates formatted README & adds answers to questions   
 function generateReadme(answers) {
     const { title, description, installation, usage, license, contributing, tests, github, email } = answers;
     
